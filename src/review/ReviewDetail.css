@@ -1,0 +1,36 @@
+.reviewHeading{
+    font-size: 25px;
+    letter-spacing: 2px;
+    border-bottom: 1px solid grey;
+    margin: 10px auto;
+    color: rgb(72, 68, 68);
+    margin-top: 80px;
+    text-align: center;
+    width: 100px;
+}
+.reviewCard{
+    box-shadow: 0 0 5px rgba(0,0,0,0.226);
+    border: 1px solid rgb(56,56,56,0.116);
+    width: 15vmax;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1vmax;
+    padding: 3vmax;
+}
+.reviewerName{
+    font-size: 18px;
+    text-transform: capitalize;
+    font-weight: 700;
+    margin-top: 10px;
+}
+.reviewCard img{
+    width: 4vmax;
+    background-color: rgb(237, 233, 233);
+    border-radius: 50%;
+}
+.reviewComment{
+    color: grey;
+    margin-top: 10px;
+}
